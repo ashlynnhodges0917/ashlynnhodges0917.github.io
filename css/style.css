@@ -1,0 +1,60 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: ghostwhite;
+    font-size: 1em;
+}
+html { 
+  background: url("https://static1.squarespace.com/static/571a31a559827ebe07598993/t/59d553cc51a584a4664a6212/1498083440011/Hulaween+2016+-+10.jpg?format=1500w") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    color:deeppink;
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+
+h2 {
+    font-size: 1em;
+    display: block;
+    margin: 20px;
+    padding: 3px;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+
+nav {
+    float: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.right_float {
+    float: right;
+}
